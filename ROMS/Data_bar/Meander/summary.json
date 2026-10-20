@@ -1,0 +1,257 @@
+{
+  "grid": {
+    "domain": "Meander",
+    "xi_rho": 202,
+    "eta_rho": 7,
+    "mouth_index": 2,
+    "dx_m": [
+      11.994159460838107,
+      29.639361643064092,
+      78.70132690591511
+    ],
+    "dy_m": [
+      1.0318835721118405,
+      3.6740488766745303,
+      10.266884216183632
+    ],
+    "h_m": [
+      -0.1,
+      3.5
+    ],
+    "angle_min_deg": 80.74226220520794,
+    "barotropic_dt_min_s": 0.26089063302160587,
+    "interior_area_m2": 138361.81455543952,
+    "interior_volume_m3": 307452.56585726986,
+    "interior_mean_depth_m": 2.2220911661582625
+  },
+  "ini": {
+    "zeta_m": [
+      0.0,
+      0.15000000000000002
+    ],
+    "cells_with_raised_zeta": 7,
+    "salt": [
+      0.0,
+      39.5
+    ],
+    "interior_volume_m3": 307452.5658572698,
+    "interior_mean_salinity": 8.325232667273344,
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ],
+    "time_units": "seconds since 2000-01-01 00:00:00"
+  },
+  "bry": {
+    "times_days": [
+      0.0,
+      3650.0
+    ],
+    "n_records": 2,
+    "zeta_west_m": [
+      0.0,
+      0.0
+    ],
+    "salt_west": [
+      39.5,
+      39.5
+    ],
+    "salt_profile": "sea",
+    "mouth_h_m": [
+      -0.1,
+      -0.1
+    ],
+    "mouth_dry_at_zeta0": true,
+    "boundary_h_m": [
+      2.0,
+      2.0
+    ],
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ]
+  },
+  "rivers": {
+    "flow_m3_day": 20000.0,
+    "flow_m3_s": 0.23148148148148148,
+    "n_sources": 5,
+    "xi_position": 201,
+    "eta_positions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "face_area_m2": 3.7163416589346525,
+    "mean_inflow_velocity_m_s": 0.06228745974551739,
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ]
+  },
+  "timestep": {
+    "DT": 2.0,
+    "NDTFAST": 11,
+    "DTFAST": 0.18181818181818182,
+    "DTFAST_max": 0.1866781408413639,
+    "barotropic_cfl_s": 0.23334767605170484,
+    "advective_limit_s": 6.081016141297508,
+    "dt_max_s": 2.0,
+    "umax_m_s": 1.0,
+    "zeta_max_m": 0.5
+  },
+  "wind": {
+    "wind_c1_from231.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        1.0,
+        1.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.0014639999999999998
+    },
+    "wind_d1_from231.nc": {
+      "n_records": 3841,
+      "days": [
+        0.0,
+        40.0
+      ],
+      "speed_m_s": [
+        0.0,
+        1.4142135623730951
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.002928
+    },
+    "wind_c2_from231.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        2.0,
+        2.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.005855999999999999
+    },
+    "wind_d2_from231.nc": {
+      "n_records": 3841,
+      "days": [
+        0.0,
+        40.0
+      ],
+      "speed_m_s": [
+        0.0,
+        2.8284271247461903
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.011712
+    },
+    "wind_c4_from231.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        4.0,
+        4.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.023423999999999997
+    },
+    "wind_d4_from231.nc": {
+      "n_records": 3841,
+      "days": [
+        0.0,
+        40.0
+      ],
+      "speed_m_s": [
+        0.0,
+        5.656854249492381
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.046848
+    },
+    "wind_c6_from231.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        6.0,
+        6.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.052703999999999994
+    },
+    "wind_d6_from231.nc": {
+      "n_records": 3841,
+      "days": [
+        0.0,
+        40.0
+      ],
+      "speed_m_s": [
+        0.0,
+        8.485281374238571
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.10540800000000002
+    },
+    "wind_c8_from231.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        8.0,
+        8.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.09369599999999999
+    },
+    "wind_d8_from231.nc": {
+      "n_records": 3841,
+      "days": [
+        0.0,
+        40.0
+      ],
+      "speed_m_s": [
+        0.0,
+        11.313708498984761
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.19135706674809494
+    }
+  },
+  "ini_from_run": {
+    "source_run": "..\\..\\..\\ROMS_runs\\ini_fill\\meander",
+    "day": 1.1666666666666667,
+    "max_speed_m_s": 0.1659896969795227,
+    "salt": [
+      0.0,
+      39.165679931640625
+    ]
+  }
+}

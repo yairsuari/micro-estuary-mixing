@@ -1,0 +1,24 @@
+diff --git a/ROMS/Nonlinear/step3d_t.F b/ROMS/Nonlinear/step3d_t.F
+index 6fc0db4..93f58df 100644
+--- a/ROMS/Nonlinear/step3d_t.F
++++ b/ROMS/Nonlinear/step3d_t.F
+@@ -1831,6 +1831,19 @@
+           END DO
+         END DO
+       END DO
++#  ifdef AGE_SURFACE_RESET
++!
++!  Micro-estuary application: ventilation age. The age concentration of
++!  the last mean-age pair (inert(NPT)) is reset to zero in the surface
++!  layer, so its mean age is the time since the water was last at the
++!  surface (or entered through an open boundary or a river source).
++!
++      DO j=Jstr,Jend
++        DO i=Istr,Iend
++          t(i,j,N(ng),nnew,inert(NPT))=0.0_r8
++        END DO
++      END DO
++#  endif
+ # endif
+ !
+ !-----------------------------------------------------------------------

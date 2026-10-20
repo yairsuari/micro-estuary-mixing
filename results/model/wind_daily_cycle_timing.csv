@@ -1,0 +1,16 @@
+domain,M,surface_max_h,surface_min_h,surface_range,bottom_max_h,bottom_min_h,bottom_range
+Alexander,1,6,15,0.489,12,22,0.145
+Alexander,2,23,14,1.192,12,22,0.188
+Alexander,4,21,12,1.015,2,16,0.26
+Alexander,6,20,12,1.191,14,21,0.671
+Alexander,8,17,12,1.377,2,20,1.933
+Meander,1,1,16,0.319,19,5,0.135
+Meander,2,1,14,0.998,12,2,0.053
+Meander,4,21,12,0.803,7,19,0.205
+Meander,6,21,12,0.619,5,19,0.719
+Meander,8,5,0,1.282,4,16,2.479
+NoMeander,1,0,17,0.388,11,21,0.178
+NoMeander,2,0,14,0.958,13,22,0.288
+NoMeander,4,22,12,0.952,14,17,0.334
+NoMeander,6,22,12,1.323,13,21,1.09
+NoMeander,8,18,12,1.421,10,21,1.676

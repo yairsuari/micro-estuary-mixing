@@ -1,0 +1,126 @@
+{
+  "grid": {
+    "domain": "Alexander",
+    "xi_rho": 200,
+    "eta_rho": 7,
+    "dx_m": [
+      14.288292052207174,
+      29.624694127121778,
+      79.1520977182808
+    ],
+    "dy_m": [
+      1.5895104116753878,
+      3.462104079656286,
+      9.631178673058242
+    ],
+    "h_m": [
+      0.01,
+      3.5
+    ],
+    "angle_min_deg": 80.99545676093479,
+    "barotropic_dt_min_s": 0.2934605766243137,
+    "interior_area_m2": 138957.82795530767,
+    "interior_volume_m3": 308136.1188404908,
+    "interior_mean_depth_m": 2.2174793847497036
+  },
+  "ini": {
+    "zeta_m": [
+      0.0,
+      0.04
+    ],
+    "cells_with_raised_zeta": 5,
+    "salt": [
+      0.0,
+      29.49588146538625
+    ],
+    "interior_volume_m3": 308136.1188404908,
+    "interior_mean_salinity": 8.554973182150102,
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ],
+    "time_units": "seconds since 2000-01-01 00:00:00"
+  },
+  "bry": {
+    "times_days": [
+      0.0,
+      3650.0
+    ],
+    "n_records": 2,
+    "zeta_west_m": [
+      0.0,
+      0.04
+    ],
+    "salt_west": [
+      39.5,
+      39.5
+    ],
+    "salt_profile": "sea",
+    "mouth_h_m": [
+      0.01,
+      0.01
+    ],
+    "mouth_dry_at_zeta0": true,
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ]
+  },
+  "rivers": {
+    "flow_m3_day": 20000.0,
+    "flow_m3_s": 0.23148148148148148,
+    "n_sources": 5,
+    "xi_position": 199,
+    "eta_positions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "face_area_m2": 4.076356316043156,
+    "mean_inflow_velocity_m_s": 0.056786370850469794,
+    "passive_tracers": [
+      "dye_01",
+      "dye_01_age",
+      "dye_02",
+      "dye_02_age",
+      "dye_03",
+      "dye_03_age"
+    ]
+  },
+  "timestep": {
+    "DT": 2.0,
+    "NDTFAST": 10,
+    "DTFAST": 0.2,
+    "DTFAST_max": 0.21960578685066068,
+    "barotropic_cfl_s": 0.27450723356332585,
+    "advective_limit_s": 7.422465101920438,
+    "dt_max_s": 2.0,
+    "umax_m_s": 1.0,
+    "zeta_max_m": 0.5
+  },
+  "wind": {
+    "wind.nc": {
+      "n_records": 2,
+      "days": [
+        0.0,
+        3650.0
+      ],
+      "speed_m_s": [
+        0.0,
+        0.0
+      ],
+      "scale": 1.0,
+      "max_stress_N_m2": 0.0
+    }
+  }
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.nc
+ROMS/Data*/**/*.nc
+docs/figures/*.png

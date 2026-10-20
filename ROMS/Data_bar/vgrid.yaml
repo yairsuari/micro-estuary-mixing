@@ -1,0 +1,13 @@
+# ROMS vertical grid, written by ROMS/python/roms_vgrid.py
+N: 10
+Vtransform: 2
+Vstretching: 1
+theta_s: 1.0
+theta_b: 0.0
+hc: 0.01
+Tcline: 0.01
+fit_rms_sigma: .nan
+pom_KB: 8
+source: explicit (not fitted to POM)
+min_layer_fraction: 0.08523370343870171
+bottom_layer_fraction: 0.12651830915404239

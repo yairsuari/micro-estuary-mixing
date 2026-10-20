@@ -1,0 +1,4 @@
+domain,n_pool_rate,n_pool_rate_lo,n_pool_rate_hi,n_pool_rate_points,n_A4_exchange,n_A4_exchange_lo,n_A4_exchange_hi,n_A4_exchange_points,n_A3_exchange,n_A3_exchange_lo,n_A3_exchange_hi,n_A3_exchange_points,Q_c_m3_day
+Alexander,0.9423,0.7713,1.113,10,1.036,0.8617,1.211,10,1.124,0.6733,1.574,8,2.036e+05
+Meander,0.9307,0.7571,1.104,10,1.01,0.7491,1.272,9,1.121,0.6638,1.578,8,1.963e+05
+NoMeander,0.939,0.7688,1.109,10,0.9628,0.8122,1.113,10,1.091,0.6962,1.486,8,1.979e+05

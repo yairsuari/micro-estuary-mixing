@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the article and this repository."
+title: "What mixes the bottom water of a micro-estuary? Model configuration, scripts and processed results"
+authors:
+  - family-names: Suari
+    given-names: Yair
+    affiliation: "Ruppin Academic Center, Faculty of Marine Sciences"
+license: MIT
+repository-code: "https://github.com/yairsuari/micro-estuary-mixing"
+date-released: 2026-10-12
+keywords:
+  - micro-estuary
+  - ROMS
+  - vertical mixing
+  - stratification
+  - sea breeze
+  - Alexander estuary

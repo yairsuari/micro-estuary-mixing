@@ -1,0 +1,10 @@
+numpy
+pandas
+xarray
+netCDF4
+scipy
+matplotlib
+pyyaml
+imageio-ffmpeg   # clips of some diagnostic scripts only
+pygridgen        # grids (GRIDATA/grid_IC.py)
+geopandas        # domains (GRIDATA)

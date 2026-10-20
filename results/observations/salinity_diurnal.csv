@@ -1,0 +1,9 @@
+station,sensor,season,segments,diurnal_fraction,peak_to_background,semidiurnal_fraction,daily_half_range,hour_of_max,hour_of_min
+A4,surface,dry,337,0.2912,7.028,0.03847,0.3583,19,10
+A4,surface,wet,356,0.1332,3.611,0.1193,0.3394,17,6
+A4,bottom,dry,352,0.09314,1.393,0.01802,0.08792,0,9
+A4,bottom,wet,362,0.05622,0.8085,0.01364,0.1146,1,15
+A3,surface,dry,279,0.3927,12.34,0.02379,0.2386,16,3
+A3,surface,wet,236,0.2113,4.679,0.07767,0.3351,15,5
+A3,bottom,dry,278,0.2598,5.065,0.03443,0.1474,9,19
+A3,bottom,wet,256,0.07499,1.134,0.02646,0.1325,12,18
